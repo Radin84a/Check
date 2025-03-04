@@ -3,4 +3,6 @@ project(Check)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Check main.cpp)
+add_executable(Check main.cpp
+        Student.cpp
+        Student.h)
